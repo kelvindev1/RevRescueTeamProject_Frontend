@@ -1,194 +1,193 @@
-/* Footer Styles */
 .footer {
-    background-color: #222;
-    color: #fff;
-    font-family: sans-serif;
-    padding: 50px 0;
-  }
-  
-  .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
-  
-  
-  
-  .car-image {
-    width: 100%;
-    height: auto;
-    margin-right: 0%;
-    margin-left: -245px;
-   
-  }
-  
-  .right-section {
-    width: 40%;
-  }
-  
-  .logo h1 {
-    font-size: 3em;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  
-  .description p {
-    line-height: 1.6;
-    margin-bottom: 20px;
-  }
-  
-  .social-links a {
-    margin: 0 10px;
-    
-    text-decoration: none;
-    font-size: 1.5em;
-  }
-  /* Specific colors for each social media icon */
-.social-links a[aria-label="Facebook"] {
-    color: #3b5998; /* Facebook color */
-  }
-  
-  .social-links a[aria-label="Instagram"] {
-    color: #e1306c; /* Instagram color */
-  }
-  
-  .social-links a[aria-label="Twitter"] {
-    color: #1da1f2; /* Twitter color */
-  }
-  .opening-hours{
-    margin-left: 60px;
-  }
-  
-  .opening-hours,
-  .contact-info {
-    margin-bottom: 30px;
-  }
-  
-  .opening-hours h2,
-  .contact-info h2 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-  }
-  
-  .opening-hours p,
-  .contact-info p {
-    line-height: 1.6;
-  }
-  
-.opening-hours span,
- .contact-info span {
-    font-weight: bold;
-  }
-  
-  /* Copyright Section */
-.copyright {
-    text-align: center;
-    font-size: 0.8em;
-    margin-top: 50px;
-  }
-.contact-info{
-    margin-left: 90px;
-  }
-  
-  /* Icons Custom Styles */
-.contact-info .fa-phone {
-    color: #007bff; /* Blue for phone icon */
-  }
-  
-.bi bi-geo-alt {
-    color: #04f33c; /* Green for email icon */
-    margin-right: 10px;
-    
-  }
-  
-  /* Responsive Design */
-@media (max-width: 768px) {
+  background-color: #222;
+  color: #fff;
+  font-family: sans-serif;
+  padding: 50px 0;
+}
+
 .container {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-.left-section, .right-section {
-      width: 100%;
-      text-align: center;
-    }
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+
+
+.car-image {
+  width: 100%;
+  height: auto;
+  margin-right: 0%;
+  margin-left: -245px;
+
+}
+
 .right-section {
-      margin-top: 20px;
-    }
-  }
-  /* Contact Info Icons */
-.contact-info .bi {
-    margin-right: 8px; /* Space between icon and text */
-    color: #007bff; /* Default color for icons */
-  }
-  
-.contact-info .bi-telephone-forward-fill {
-    color: #28a745; /* Green for phone icon */
-  }
-  
-.contact-info .bi-envelope-at-fill {
-    color: #ffc107; /* Yellow for envelope icon */
- }
-  
-  .contact-info .bi-geo-alt {
-    color: #17a2b8; /* Cyan for location icon */
-  }
+  width: 40%;
+}
 
-/* Copyright section */
+.logo h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.description p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.social-links a {
+  margin: 0 10px;
+
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+.social-links a[aria-label="Facebook"] {
+  color: #3b5998;
+}
+
+.social-links a[aria-label="Instagram"] {
+  color: #e1306c;
+}
+
+.social-links a[aria-label="Twitter"] {
+  color: #1da1f2;
+}
+
+.opening-hours {
+  margin-left: 60px;
+}
+
+.opening-hours,
+.contact-info {
+  margin-bottom: 30px;
+}
+
+.opening-hours h2,
+.contact-info h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.opening-hours p,
+.contact-info p {
+  line-height: 1.6;
+}
+
+.opening-hours span,
+.contact-info span {
+  font-weight: bold;
+}
+
 .copyright {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 0.9em;
-    color: #6c757d; /* Light gray color for the copyright text */
+  text-align: center;
+  font-size: 0.8em;
+  margin-top: 50px;
+}
+
+.contact-info {
+  margin-left: 90px;
+}
+
+.contact-info .fa-phone {
+  color: #007bff;
+}
+
+.bi bi-geo-alt {
+  color: #04f33c;
+  margin-right: 10px;
+
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
   }
 
+  .left-section,
+  .right-section {
+    width: 100%;
+    text-align: center;
+  }
 
-  /* Base styles for the footer */
+  .right-section {
+    margin-top: 20px;
+  }
+}
 
-/* Social Links */
+.contact-info .bi {
+  margin-right: 8px;
+  color: #007bff;
+}
+
+.contact-info .bi-telephone-forward-fill {
+  color: #28a745;
+}
+
+.contact-info .bi-envelope-at-fill {
+  color: #ffc107;
+}
+
+.contact-info .bi-geo-alt {
+  color: #17a2b8;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #6c757d;
+
+}
+
+
+
 .social-links {
-    display: flex;
-    gap: 10px;
+  display: flex;
+  gap: 10px;
 }
 
 .social-icon {
-    font-size: 24px;
-    color: #333;
-    transition: color 0.3s, transform 0.3s;
+  font-size: 24px;
+  color: #333;
+  transition: color 0.3s, transform 0.3s;
 }
 
 .social-icon:hover {
-    color: #007bff; /* Change to your preferred hover color */
-    transform: scale(1.2); /* Slightly enlarge the icon on hover */
+  color: #007bff;
+  transform: scale(1.2);
+
 }
 
-/* Contact Info */
+
 .contact-info {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .contact-item {
-    color: #dad9d9;
-    text-decoration: none;
-    transition: color 0.3s, text-decoration 0.3s;
+  color: #dad9d9;
+  text-decoration: none;
+  transition: color 0.3s, text-decoration 0.3s;
 }
 
 .contact-item:hover {
-    color: #f90505; /* Change to your preferred hover color */
-    text-decoration: underline; /* Underline on hover */
+  color: #f90505;
+  text-decoration: underline;
+
 }
 
 .contact-item i {
-    margin-right: 8px; /* Space between icon and text */
+  margin-right: 8px;
 }
 
-/* Additional styles for responsiveness */
+
 @media (max-width: 768px) {
-    .container {
-        flex-direction: column;
-    }
+  .container {
+    flex-direction: column;
+  }
 }
