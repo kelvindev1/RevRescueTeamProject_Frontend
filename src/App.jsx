@@ -1,4 +1,6 @@
 import "./App.css";
+
+// import 'bootstrap-icons/font/bootstrap-icons.css';
 import Home from "./components/Home";
 import Footer from "./components/Footer";
 
