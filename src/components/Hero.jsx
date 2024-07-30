@@ -2,7 +2,7 @@ import React from 'react';
 import './Hero.css'; // Create and import your CSS file
 
 const Hero = () => (
-  <section className="hero has-bg-image" aria-label="home" style={{ backgroundImage: "url('/assets/images/hero-bg.jpg')" }}>
+  <section className="hero has-bg-image" aria-label="home" style={{ backgroundImage: "url('src/assets/images/hero-bg.jpg')" }}>
     <div className="container">
       <div className="hero-content">
         <p className="section-subtitle :dark">We have talented engineers & mechanics</p>
@@ -14,7 +14,7 @@ const Hero = () => (
         </a>
       </div>
       <figure className="hero-banner" style={{ '--width': 1228, '--height': 789 }}>
-        <img src="/assets/images/hero-banner.png" width="1228" height="789" alt="red motor vehicle" className="move-anim" />
+        <img src="src/assets/images/hero-banner.png" width="1228" height="789" alt="red motor vehicle" className="move-anim" />
       </figure>
     </div>
   </section>
