@@ -5,7 +5,7 @@ const About = () => (
   <section className="section about has-before" aria-labelledby="about-label">
     <div className="container">
       <figure className="about-banner">
-        <img src="/assets/images/about-banner.png" width="540" height="540" loading="lazy" alt="vehicle repair equipments" className="w-100" />
+        <img src="src/assets/images/about-banner.png" width="540" height="540" loading="lazy" alt="vehicle repair equipments" className="w-100" />
       </figure>
       <div className="about-content">
         <p className="section-subtitle :dark">About Us</p>
