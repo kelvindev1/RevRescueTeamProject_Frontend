@@ -2,7 +2,7 @@ import React from 'react';
 import './Service.css'; // Create and import your CSS file
 
 const Service = () => (
-  <section className="section service has-bg-image" aria-labelledby="service-label" style={{ backgroundImage: "url('/assets/images/service-bg.jpg')" }}>
+  <section className="section service has-bg-image" aria-labelledby="service-label" style={{ backgroundImage: "url('src/assets/images/service-bg.jpg')" }}>
     <div className="container">
       <p className="section-subtitle :light" id="service-label">Our services</p>
       <h2 className="h2 section-title">We Provide Great Services For your Vehicle, wherever and whenever around the country</h2>

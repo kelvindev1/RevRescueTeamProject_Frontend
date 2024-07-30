@@ -11,7 +11,7 @@ const Work = () => (
         <li className="scrollbar-item">
           <div className="work-card">
             <figure className="card-banner img-holder" style={{ '--width': 350, '--height': 406 }}>
-              <img src="/assets/images/work-1.jpg" width="350" height="406" loading="lazy" alt="Engine Repair" className="img-cover" />
+              <img src="src/assets/images/work-1.jpg" width="350" height="406" loading="lazy" alt="Engine Repair" className="img-cover" />
             </figure>
             <div className="card-content">
               <p className="card-subtitle">Auto Repair</p>
