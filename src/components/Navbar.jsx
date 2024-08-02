@@ -12,6 +12,7 @@ const Navbar = () => {
     <header className="header">
       <div className="container">
         <a href="#" className="logo">
+          <img src="../assets/images/logo.png" width="128" height="63" alt="RevRescue home" />
           <img src="src/assets/images/logo.png" width="128" height="63" alt="autofix home" />
         </a>
 
